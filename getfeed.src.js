@@ -1,4 +1,4 @@
-
+// github.com/davesmiths/getFeed/
 $.fn.getFeed = function(o, callback) {
 	
 	'use strict';
