@@ -68,7 +68,6 @@ $('[data-getfeed]').getFeed({
         customTemplate: '<div>{{#items}}<a{{href}}>{{title}}</a> {{#datetemplate}}{{/datetemplate}}{{/items}}</div>'
         ,customDateTemplate: '{{j}}'
 });
-});
 ```
 
 Replace the getfeed-src element manually
