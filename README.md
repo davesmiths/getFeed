@@ -51,7 +51,7 @@ Drop in a custom template
 Drop in a custom date template to use for the date in the template
 
 **namespace**  
-The namespace for the plugin, affects the data attribute data-[ns]-src, class names in the template
+The namespace for the plugin, affects the data attribute data-[ns] and class names in the template
 
 ###Callback
 Called for each element when complete. Useful when not using the replace option: {replace:false}
