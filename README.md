@@ -60,7 +60,10 @@ Called for each element when complete. Useful when not using the replace option:
 Use i18n to set English to use the months a, b, c… instead of January, February, March…
 ```javascript
 $('[data-getfeed]').getFeed({i18n: {'en': {months:['a','b','c','d','e','f','g','h','i','j','k','l']}}});
+```
+
 Use a custom template and date template
+```javascript
 $('[data-getfeed]').getFeed({
         customTemplate: '<div>{{#items}}<a{{href}}>{{title}}</a> {{#datetemplate}}{{/datetemplate}}{{/items}}</div>'
         ,customDateTemplate: '{{j}}'
